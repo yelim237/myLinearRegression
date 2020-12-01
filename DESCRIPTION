@@ -1,0 +1,18 @@
+Package: myLinearRegression
+Title: Find Coefficients and P-values from Linear Model with Scatter Plot
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Ye-Lim",
+           family = "Lim",
+           role = c("aut", "cre"),
+           email = "yelim237@vt.edu")
+Description: `myLinearRegression` is used to find coefficients and p-values from a linear model with a scatter plot between each variable in a model.
+License: `use_mit_license()`, `use_gpl3_license()` or friends to
+    pick a license
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Imports: GGally
+Depends: 
+    R (>= 2.10)
